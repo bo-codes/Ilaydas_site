@@ -4,18 +4,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: "proxima-nova", sans-serif;
+  font-family: "lora", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 #header-name {
   text-transform: uppercase;
-  font-family: "chelsea-market-pro", sans-serif;
+  font-family: "lora", sans-serif;
   font-weight: 800;
   font-style: bold;
   letter-spacing: 2.4px;
-  color: #d972a1;
+  color: var(--primaryLav);
   font-size: 20px;
   padding: 10px 0;
 }

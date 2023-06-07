@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+#services-page {
+  display: flex;
+  justify-content: center;
+}
+
 #img-prevs {
   /* border: 1px solid green; */
   /* columns: 3 250px; */
@@ -14,7 +19,25 @@
   align-items: center;
 }
 
-#gallery-container {
-  max-width: 85%;
-  margin: 20px auto;
+#services-container {
+  max-width: 800px;
+  color: rgb(101, 101, 101);
+}
+
+#services {
+  line-height: 1.8;
+  font-family: "lora", sans-serif;
+  /* font-weight: 100; */
+  font-style: normal;
+}
+
+.service-type {
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid rgba(128, 128, 128, 0.432);
+}
+
+.service-type-title {
+  color: black;
+  padding-right: 8px;
 }

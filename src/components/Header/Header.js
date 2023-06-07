@@ -11,11 +11,11 @@ const Header = () => {
       <div id="header-titles">Actor . Producer . Writer</div>
       <a
         id="header-contact"
-        href="https://mail.google.com/mail/?view=cm&fs=1&to=hi@almiraakin.com&csu=Work+Inquiry"
+        href="https://mail.google.com/mail/?view=cm&fs=1&to=ilaydaakin1010@gmail.com&csu=Work+Inquiry"
         target="_blank"
         rel="noreferrer"
       >
-        hi@almiraakin.com
+        ilaydaakin1010@gmail.com
       </a>
     </div>
   );

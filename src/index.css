@@ -4,6 +4,28 @@ body {
   padding: 80px;
 }
 
+.imp {
+  font-weight: bold;
+}
+
+.section-animation {
+  visibility: visible;
+  -webkit-animation: slideUp 1s;
+  animation: slideUp 1.4s;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 @media screen and (max-width: 960px) {
   body {
     padding: 50px;

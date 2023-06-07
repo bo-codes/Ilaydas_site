@@ -1,13 +1,15 @@
-import AlmirasResume from  "../../imgs/AlmiraAkin_Resume.pdf"
-import ResumeImg from "../../imgs/almiras_resume.png"
+import IlaydasResume from  "../../imgs/ilaydas_resume.pdf"
+import ResumeImg1 from "../../imgs/ilayda_res1.jpg"
+import ResumeImg2 from "../../imgs/ilayda_res2.jpg"
 import "./ResumePage.css";
 
 const ResumePage = () => {
   return (
     <div id="resume-page">
       <div id="resume-container">
-        <a id="download-resume-btn" href={AlmirasResume} download><span>Download Resume</span></a>
-        <img id="resume-img" src={ResumeImg} alt="almira's resume"/>
+        <a id="download-resume-btn" href={IlaydasResume} download><span>Download Resume</span></a>
+        <img className="resume-img res1" src={ResumeImg1} alt="almira's resume"/>
+        <img className="resume-img res2" src={ResumeImg2} alt="almira's resume"/>
       </div>
     </div>
   );
