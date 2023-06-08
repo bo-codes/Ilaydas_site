@@ -4,14 +4,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: "lora", sans-serif;
+  font-family: "inter", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 #header-name {
   text-transform: uppercase;
-  font-family: "lora", sans-serif;
+  font-family: "inter", sans-serif;
   font-weight: 800;
   font-style: bold;
   letter-spacing: 2.4px;

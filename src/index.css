@@ -1,3 +1,12 @@
+:root {
+  --primaryLav: #a78bda;
+  --darkerLav: #7e62b2;
+}
+
+* {
+  font-family: "inter", sans-serif;
+}
+
 body {
   color: black;
   margin: 0;
@@ -8,10 +17,14 @@ body {
   font-weight: bold;
 }
 
+.section {
+  visibility: hidden;
+}
+
 .section-animation {
   visibility: visible;
-  -webkit-animation: slideUp 1s;
-  animation: slideUp 1.4s;
+  -webkit-animation: slideUp .8s;
+  animation: slideUp .8s;
 }
 
 @keyframes slideUp {

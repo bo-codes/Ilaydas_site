@@ -6,7 +6,9 @@
 
 #services-page {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
 }
 
 #img-prevs {
@@ -26,18 +28,123 @@
 
 #services {
   line-height: 1.8;
-  font-family: "lora", sans-serif;
+  font-family: "inter", sans-serif;
   /* font-weight: 100; */
   font-style: normal;
+  padding: 20px;
 }
 
-.service-type {
+.service-size {
+  margin-bottom: 20px;
   padding: 20px;
-  margin: 20px;
   border: 1px solid rgba(128, 128, 128, 0.432);
 }
 
-.service-type-title {
+.aligned-right {
+  align-items: end;
+}
+
+.service-size-title {
   color: black;
   padding-right: 8px;
+}
+
+#service-types {
+  max-width: 800px;
+  padding: 20px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.services-title {
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: .4px;
+  color: var(--primaryLav);
+  margin-bottom: 20px;
+}
+
+.service-type {
+  border: .6px solid rgba(128, 128, 128, 0.432);
+  /* padding: 10px; */
+  height: 280px;
+  width: 100%;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-type:hover {
+  background-color: rgba(128, 128, 128, 0.5);
+  cursor: pointer;
+}
+
+.service-prices {
+  font-size: 15px;
+}
+
+.service-type-price {
+  color: var(--primaryLav);
+}
+
+.service-type:hover .service-type-price{
+  color: var(--darkerLav);
+}
+
+.service-type:hover .service-type-img-container .service-type-img {
+  transform: scale(1.1)
+}
+
+.reversed-type {
+  flex-direction: row;
+}
+
+.ordered-type {
+  flex-direction: row-reverse;
+}
+
+/* .grow-animation {
+  animation: slightZoom 1s;
+} */
+
+.service-type-title {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.service-type-length {
+  font-weight: 600;
+}
+
+.service-type-content {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.general-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.price-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.service-type-img-container {
+  width: 65%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.service-type-img {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all .4s ease-in-out;
 }
