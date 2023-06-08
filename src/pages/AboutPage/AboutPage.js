@@ -25,7 +25,7 @@ const AboutPage = () => {
       <div id="about-container" className="section">
         {/* <div id="about-img"></div> */}
         <div className="section-wrapper">
-          <img src={aboutImg} id="about-img" className="section" />
+          <img src={aboutImg} id="about-img"/>
         </div>
         <div className="section-wrapper">
           <div className="about-descr section">
