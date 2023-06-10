@@ -4,7 +4,12 @@ import "./HomePage.css";
 const HomePage = () => {
   return (
     <div id="homepage-container">
-      <img src={mouse} id='mouse-img' alt="mouse painting"/>
+      <div className="homepage-txt">
+        <div className="home-hello">Hi, I'm</div>
+        <div className="home-intro">
+          <span className="home-name">Ilayda</span>
+        </div>
+      </div>
     </div>
   );
 };

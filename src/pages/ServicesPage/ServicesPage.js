@@ -1,33 +1,17 @@
-import { useEffect } from "react";
 import { serviceTypes } from "./Services";
 import "./ServicesPage.css";
+import { Banner } from "../../components/Banner/Banner";
 
-// function senseHover(el) {
-//   el.addEventListener("mouseover", (e) => {
-//     let children = e.target.children;
-//     for (let child of children) {
-//       if (child.classList.contains("service-type-img")) {
-//         child.classList.add("grow-animation");
-//       }
-//     }
-//   });
-// }
+const bannerServices = ['Acting', 'Puppets', 'Storytelling', 'Writing', 'Improvisation', 'Juggling', 'Clowning', 'Auditions', 'Monologues', 'Dramaturgy'].map((service) => ({
+  id: crypto.randomUUID(),
+  service,
+}));
 
 const ServicesPage = () => {
-  // useEffect(() => {
-  //   const getImg = () => {
-  //     const imgs = document.querySelectorAll(".service-type");
-  //     imgs.forEach(async (img) => {
-  //       senseHover(img)
-  //     });
-  //   };
-  //   getImg();
-  // }, []);
-
   return (
     <div id="services-page">
-      <div id="services-container" className="section-wrapper">
-        <div id="services" className="section">
+      <div id="services-container">
+        <div id="services">
           <div className="services-title">Session Types</div>
           <div className="service-size">
             <span className="imp service-size-title">Individual Sessions:</span>
@@ -48,6 +32,7 @@ const ServicesPage = () => {
           </div>
         </div>
       </div>
+      <Banner services={bannerServices} speed={10000}/>
       <div id="service-types">
         <div className="section-wrapper">
           <div className="services-title section">Services</div>
@@ -87,7 +72,7 @@ const ServicesPage = () => {
                     <div className="service-prices">
                       {service.prices.map((currPrice, i) => {
                         return (
-                          <div key={i} className="service-type-price">
+                          <div key={i} className={`service-type-price ${i === 0 && 'main-price'}`}>
                             ${currPrice.price}
                             {currPrice.desc && currPrice.desc}
                           </div>

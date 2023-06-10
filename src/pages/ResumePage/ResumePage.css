@@ -12,6 +12,7 @@
 }
 
 #download-resume-btn {
+  margin-top: 50px;
   color: white;
   background-color: var(--primaryLav);
   /* background-color: #a78bda; */
@@ -23,6 +24,10 @@
   font-style: bold;
   letter-spacing: 1.4px;
   font-size: 12px;
+}
+
+#download-resume-btn:hover {
+  background-color: var(--darkerLav);
 }
 
 .resume-img {

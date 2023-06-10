@@ -6,6 +6,23 @@
   justify-content: center;
 }
 
-#mouse-img {
-  width: 50%;
+.homepage-txt {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  font-weight: 600;
+}
+
+.home-hello {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.home-intro {
+  margin-left: 44px;
+  font-size: 90px;
+}
+
+.home-name {
+  color: var(--primaryLav);
 }

@@ -4,7 +4,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div id="footer-container">
-      <div id="links">
+      {/* <div id="links">
         <a
           id="link"
           href="https://www.instagram.com/almiraakin/"
@@ -21,8 +21,8 @@ const Footer = () => {
         >
           <AiFillLinkedin />
         </a>
-      </div>
-      <div id="copyright">©2023-Almira Akin</div>
+      </div> */}
+      <div id="copyright">©2023-Ilayda Magrann</div>
     </div>
   );
 };

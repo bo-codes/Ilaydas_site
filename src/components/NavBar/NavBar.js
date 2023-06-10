@@ -9,9 +9,9 @@ function NavBar() {
   const currPath = location.pathname
 
   const NavBarData = [
+    {name: 'Services', to: '/services'},
     {name: 'About', to: '/about'},
     {name: 'Resume', to: '/resume'},
-    {name: 'Services', to: '/services'}
   ]
 
   return (

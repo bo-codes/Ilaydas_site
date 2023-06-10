@@ -1,4 +1,4 @@
-import aboutImg from '../../imgs/almira_about.jpg'
+import aboutImg from '../../imgs/ilayda_about.png'
 import "./AboutPage.css";
 
 const AboutPage = () => {
@@ -22,32 +22,27 @@ const AboutPage = () => {
 
   return (
     <div id="about-page">
-      <div id="about-container" className="section">
-        {/* <div id="about-img"></div> */}
-        <div className="section-wrapper">
-          <img src={aboutImg} id="about-img"/>
-        </div>
+      <div id="about-container">
+        <img src={aboutImg} id="about-img"/>
         <div className="section-wrapper">
           <div className="about-descr section">
             Greetings and a warm welcome! I am Ilayda Magrann, a seasoned
             professional in the realm of performing arts, specializing as an
-            actor, drama therapist, and drama teacher, with a base of operations
-            situated in Glen Cove, NY. My educational background includes the
-            attainment of a Master of Arts degree in Theatre History and
+            actor, drama therapist, and drama teacher, based in Glen Cove, NY.
+            My formal education in theatre consists of a Master of Arts degree in Theatre History and
             Criticism from Brooklyn College, complemented by a Bachelor of Fine
             Arts degree in Drama and Acting from Istanbul Aydin University,
-            located in Istanbul, Turkey. Furthermore, I had the privilege of
-            honing my craft in the domains of acting and dance at the
+            located in Istanbul, Turkey. After my collegiate studies, I took the time to polish my acting and dance skills at the
             prestigious Janáček Academy of Music and Performing Arts, situated
             in the Czech Republic. As a testament to my dedication, I was
-            granted the opportunity to partake in an acting and theater workshop
-            at the esteemed University of Siena in Siena, Italy, subsequent to
+            invited to partake in an acting and theater workshop
+            at the esteemed University of Siena in Siena, Italy, after
             my studies in the Czech Republic.
           </div>
         </div>
         <div className="section-wrapper">
           <div className="about-descr section">
-            From an early age, I harbored an ardent passion for theater, driven
+            From an early age, I harbored a passion for theater, driven
             by an innate inclination towards artistic creation and
             entertainment. My active nature and love for writing stories, plays,
             and poems served as a testament to my destined path as an artist.
@@ -56,7 +51,7 @@ const AboutPage = () => {
             song, or poetry recitation.
           </div>
         </div>
-        <div className="section-wrapper">
+        {/* <div className="section-wrapper">
           <div className="about-descr section">
             The turning point in my artistic journey arrived when I successfully
             convinced my father to employ his hand camera to capture myself and
@@ -67,8 +62,8 @@ const AboutPage = () => {
             endeavors with others and evoke enjoyment, this early venture
             further intensified my fervor.
           </div>
-        </div>
-        <div className="section-wrapper">
+        </div> */}
+        {/* <div className="section-wrapper">
           <div className="about-descr section">
             Fuelled by an ever-growing love for creativity, I ventured into the
             realm of theater classes. Such endeavors propelled me towards the
@@ -77,8 +72,8 @@ const AboutPage = () => {
             part of my life, constantly nourishing my artistic spirit and
             serving as a conduit for self-expression.
           </div>
-        </div>
-        <div className="section-wrapper">
+        </div> */}
+        {/* <div className="section-wrapper">
           <div className="about-descr section">
             My unwavering dedication to theater, fostered through years of
             experience and honing of skills, has endowed me with a profound
@@ -86,7 +81,7 @@ const AboutPage = () => {
             unwavering passion and a constant drive to entertain and connect
             with audiences, has molded me into a multidimensional artist.
           </div>
-        </div>
+        </div> */}
         <div className="section-wrapper">
           <div className="about-descr section">
             Whether my future leads me to pursue theater professionally or
