@@ -1,4 +1,3 @@
-import mouse from "../../imgs/almouse.jpg"
 import "./HomePage.css";
 
 const HomePage = () => {
