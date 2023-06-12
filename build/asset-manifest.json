@@ -1,35 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.614be364.css",
-    "main.js": "/static/js/main.8697cf9f.js",
-    "static/media/10.jpeg": "/static/media/10.1ad0c7f91e5a696021df.jpeg",
-    "static/media/13.jpeg": "/static/media/13.9f95c4466ee271923a53.jpeg",
-    "static/media/AlmiraAkin_Resume.pdf": "/static/media/AlmiraAkin_Resume.9304aafc0ebf72db1a91.pdf",
-    "static/media/almiras_resume.png": "/static/media/almiras_resume.4f5b2512d624abc09b96.png",
-    "static/media/12.jpeg": "/static/media/12.a9506e8e1af398270f19.jpeg",
-    "static/media/1.jpeg": "/static/media/1.efef0255ea45803aa5db.jpeg",
-    "static/media/4.jpg": "/static/media/4.7a63666e1caaa92581bc.jpg",
-    "static/media/2.jpeg": "/static/media/2.f9164ca356c4820280ec.jpeg",
-    "static/media/9.jpeg": "/static/media/9.203e184273ac9f01990a.jpeg",
-    "static/media/4.jpeg": "/static/media/4.cbea11f146468aea86b2.jpeg",
-    "static/media/3.jpeg": "/static/media/3.0a3e364be28b3d7d55cc.jpeg",
-    "static/media/15.jpg": "/static/media/15.02d4346e67061897985f.jpg",
-    "static/media/11.jpeg": "/static/media/11.1544bd2866022197c305.jpeg",
-    "static/media/16.jpg": "/static/media/16.6b44040a31045ebea3f4.jpg",
-    "static/media/5.jpeg": "/static/media/5.606a59ba4b925f5d5028.jpeg",
-    "static/media/almouse.jpg": "/static/media/almouse.ae2f65d865b33d44852f.jpg",
-    "static/media/7.jpeg": "/static/media/7.fafce30a6207f2ade0b2.jpeg",
-    "static/media/almira_about.jpg": "/static/media/almira_about.fd6a24958068001caf3c.jpg",
-    "static/media/8.jpeg": "/static/media/8.18414e1ba8ae3c0265aa.jpeg",
-    "static/media/14.jpeg": "/static/media/14.c2609b78b7fdba33df3d.jpeg",
-    "static/media/6.jpeg": "/static/media/6.ef699f4097f8a1c53eba.jpeg",
-    "static/media/almis_pfp.png": "/static/media/almis_pfp.442ddbb2ca552312fc6e.png",
+    "main.css": "/static/css/main.a0dc518c.css",
+    "main.js": "/static/js/main.8864f7ed.js",
+    "static/media/dramaturgy.jpg": "/static/media/dramaturgy.e5d63c21926ed0f9f12f.jpg",
+    "static/media/puppets.jpg": "/static/media/puppets.d738f4ac3b3ba87bf597.jpg",
+    "static/media/acting.jpg": "/static/media/acting.03a539091043e2d5cd7c.jpg",
+    "static/media/auditions.jpg": "/static/media/auditions.16b4026e47fd805e4ac2.jpg",
+    "static/media/storytelling.jpg": "/static/media/storytelling.4e2757886f6970697326.jpg",
+    "static/media/creativeWriting.jpg": "/static/media/creativeWriting.166e90fe10e962ecbe2d.jpg",
+    "static/media/ilayda_pfp.jpg": "/static/media/ilayda_pfp.ea790ce9cbd65f6e8167.jpg",
+    "static/media/ilayda_about.png": "/static/media/ilayda_about.30a4eba19b3d0d56dd4e.png",
+    "static/media/ilayda_res1.jpg": "/static/media/ilayda_res1.2d74d18e98cb971d8f43.jpg",
+    "static/media/ilayda_res2.jpg": "/static/media/ilayda_res2.1e10005158dd72c9a770.jpg",
+    "static/media/juggling.jpg": "/static/media/juggling.7330e96c5a29908f7a42.jpg",
+    "static/media/ilaydas_resume.pdf": "/static/media/ilaydas_resume.0b41515abe808bea1ac6.pdf",
     "index.html": "/index.html",
-    "main.614be364.css.map": "/static/css/main.614be364.css.map",
-    "main.8697cf9f.js.map": "/static/js/main.8697cf9f.js.map"
+    "main.a0dc518c.css.map": "/static/css/main.a0dc518c.css.map",
+    "main.8864f7ed.js.map": "/static/js/main.8864f7ed.js.map"
   },
   "entrypoints": [
-    "static/css/main.614be364.css",
-    "static/js/main.8697cf9f.js"
+    "static/css/main.a0dc518c.css",
+    "static/js/main.8864f7ed.js"
   ]
 }

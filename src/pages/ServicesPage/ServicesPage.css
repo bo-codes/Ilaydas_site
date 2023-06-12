@@ -64,6 +64,16 @@
   margin-bottom: 20px;
 }
 
+.service-link {
+  text-decoration: none;
+  /* color: var(--primaryLav); */
+  color: black;
+}
+
+/* .service-link:hover {
+  color: var(--darkerLav);
+} */
+
 .service-type {
   border: .6px solid rgba(128, 128, 128, 0.432);
   /* padding: 10px; */

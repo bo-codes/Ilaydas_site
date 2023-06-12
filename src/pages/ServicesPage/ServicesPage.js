@@ -1,8 +1,22 @@
 import { serviceTypes } from "./Services";
 import "./ServicesPage.css";
 import { Banner } from "../../components/Banner/Banner";
+import detect from "detect.js";
 
-const bannerServices = ['Acting', 'Puppets', 'Storytelling', 'Writing', 'Improvisation', 'Juggling', 'Clowning', 'Auditions', 'Monologues', 'Dramaturgy'].map((service) => ({
+const user = detect.parse(navigator.userAgent);
+
+const bannerServices = [
+  "Acting",
+  "Puppets",
+  "Storytelling",
+  "Writing",
+  "Improvisation",
+  "Juggling",
+  "Clowning",
+  "Auditions",
+  "Monologues",
+  "Dramaturgy",
+].map((service) => ({
   id: crypto.randomUUID(),
   service,
 }));
@@ -32,7 +46,7 @@ const ServicesPage = () => {
           </div>
         </div>
       </div>
-      <Banner services={bannerServices} speed={10000}/>
+      <Banner services={bannerServices} speed={10000} />
       <div id="service-types">
         <div className="section-wrapper">
           <div className="services-title section">Services</div>
@@ -40,53 +54,69 @@ const ServicesPage = () => {
         {serviceTypes.map((service, i) => {
           return (
             <div className="section-wrapper" key={i}>
-              <div
-                className={`service-type section ${
-                  i % 2 === 0 ? "reversed-type" : "ordered-type"
-                }`}
-              >
-                <div
-                  className={`service-type-content ${
-                    i % 2 !== 0 && "aligned-right"
-                  }`}
+              <div className="section">
+                <a
+                  className="service-link"
+                  href={user.browser.family.includes("Mobile") ? 'tel:+19175386182' : `https://mail.google.com/mail/?view=cm&fs=1&to=ilaydaakin1010@gmail.com&su=Service+Inquiry:+${service.title}`}
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   <div
-                    className={`general-content ${
-                      i % 2 !== 0 && "aligned-right"
+                    className={`service-type ${
+                      i % 2 === 0 ? "reversed-type" : "ordered-type"
                     }`}
                   >
-                    <div className="service-type-title">{service.title}</div>
-                    <div className="service-type-length">
-                      {service.timeLength.slice(
-                        0,
-                        service.timeLength.length - 1
-                      )}{" "}
-                      session
+                    <div
+                      className={`service-type-content ${
+                        i % 2 !== 0 && "aligned-right"
+                      }`}
+                    >
+                      <div
+                        className={`general-content ${
+                          i % 2 !== 0 && "aligned-right"
+                        }`}
+                      >
+                        <div className="service-type-title">
+                          {service.title}
+                        </div>
+                        <div className="service-type-length">
+                          {service.timeLength.slice(
+                            0,
+                            service.timeLength.length - 1
+                          )}{" "}
+                          session
+                        </div>
+                      </div>
+                      <div
+                        className={`price-content ${
+                          i % 2 !== 0 && "aligned-right"
+                        }`}
+                      >
+                        <div className="service-prices">
+                          {service.prices.map((currPrice, i) => {
+                            return (
+                              <div
+                                key={i}
+                                className={`service-type-price ${
+                                  i === 0 && "main-price"
+                                }`}
+                              >
+                                ${currPrice.price}
+                                {currPrice.desc && currPrice.desc}
+                              </div>
+                            );
+                          })}
+                        </div>
+                      </div>
+                    </div>
+                    <div className="service-type-img-container">
+                      <div
+                        className="service-type-img"
+                        style={{ backgroundImage: `url(${service.img})` }}
+                      />
                     </div>
                   </div>
-                  <div
-                    className={`price-content ${
-                      i % 2 !== 0 && "aligned-right"
-                    }`}
-                  >
-                    <div className="service-prices">
-                      {service.prices.map((currPrice, i) => {
-                        return (
-                          <div key={i} className={`service-type-price ${i === 0 && 'main-price'}`}>
-                            ${currPrice.price}
-                            {currPrice.desc && currPrice.desc}
-                          </div>
-                        );
-                      })}
-                    </div>
-                  </div>
-                </div>
-                <div className="service-type-img-container">
-                  <div
-                    className="service-type-img"
-                    style={{ backgroundImage: `url(${service.img})` }}
-                  />
-                </div>
+                </a>
               </div>
             </div>
           );

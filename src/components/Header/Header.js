@@ -7,7 +7,7 @@ const Header = () => {
       <NavLink to="/">
         <div id="header-img"></div>
       </NavLink>
-      <div id="header-name">Ilayda Magrann</div>
+      <div id="header-name">İlayda Magrann</div>
       <div id="header-titles">Actor . Writer . Instructor</div>
       <a
         id="header-contact"
